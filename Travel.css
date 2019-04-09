@@ -1,0 +1,48 @@
+/*
+* Maddie Tonn 
+* April 9, 2019  
+* Padua Panda Travel Andaman Islands 
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+
+/* Background color */
+background-color: azure;    
+
+}
+
+/* Format of all the pictures */
+#island { width: 450px; height: 350px; }
+#elephant { float: right; width: 250px; height: 150px; }
+#beach { width: 250px; height: 150px; }
+#park {  float: right; width: 250px; height: 150px; }
+#tapu { width: 250px; height: 150px; }
+#cave { float: right; width: 250px; height: 150px; }
+#viper { width: 250px; height: 150px; }
+
+/* Format of the fig captions */
+#phantfig { float: right; }
+#beachfig { float: none; }
+#gandifig { float: right; }
+#chidiyafig { float: none; }
+#cavefig { float: right; }
+#islandfig { float: none; }
+
+/* border format for the table */
+table, td, th { border: 2px solid aquamarine; }
+
+/* style of the border */
+table { border-collapse: collapse; }
+
+/* The different colors for each section of my table */
+thead { background-color: lightgreen; }
+tbody { background-color: lightgoldenrodyellow; }
+tfoot { background-color: lightpink; }
